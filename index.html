@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/7b8b9c56a5.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting in Line 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header"><h2>Waiting in Line</h2><a href="https://www.omorashi.org/profile/166545-kanako/">by Kanako</a></div>
+        <form class="settings" id="settings">
+        <h3>Set the approximate time each person will take inside (in minutes):</h3>
+            <div class="time">
+                <div class="timefrom">
+                    <h3>From</h3>
+                    <input type="number" id="from" name="from" />
+                </div>
+                <div class="timeto">
+                    <h3>To</h3>
+                    <input type="number" id="to" name="to" />
+                </div>
+            </div>
+            <div class="linenumber">
+                <h3>How many people and stalls would you like in your line?</h3>
+                <input type="number" id="linenumber" name="linenumber" /> people
+                <input type="number" id="stallnumber" name="stallnumber" /> stalls
+            </div>
+            <div class="startbtncont">
+                <button id="startbtn" class="btn">Start</button>
+            </div>
+        </form>
+        <div class="randombtncont" id = "randombtncont">
+            <button id="randombtn" class="btn">Start with random settings ;)</button>
+        </div>
+        <div class="counters">
+            <div class="stopwatch" id="stopwatch">00:00:00</div>
+            <div id="peopleleft" name="peopleleft" class = "stopwatch"></div>
+        </div>
+    </div>
+</body>
+<script src="waitingInLine.js"></script>
+</html>

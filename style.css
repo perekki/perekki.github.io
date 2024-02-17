@@ -1,0 +1,62 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background: #e6e9ff;
+	margin: 20px;
+}
+
+.header {
+	background: #667aff;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main {
+	max-width: 800px;
+	background: #b1b9f5;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.settings {
+    padding: 20px 20px 0px;
+}
+
+.stopwatch {
+    padding: 10px 20px 20px;
+}
+
+.counters {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+}
+
+.linenumber {
+	padding: 20px 0px;
+}
+
+.startbtncont {
+	padding: 20px 0px 10px;
+}
+
+.randombtncont {
+	padding: 10px 20px 20px;
+}
+
+.btn {
+	font-size: 14px;
+}
